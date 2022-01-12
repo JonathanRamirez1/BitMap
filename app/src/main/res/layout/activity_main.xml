@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <EditText
+            android:id="@+id/editTextHex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:inputType="textCapCharacters"
+            android:maxLength="17" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/checkboxBit1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 001" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 002" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 003" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 004" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 005" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 006" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 007" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 008" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 009" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 010" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 001" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 012" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 013" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 014" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 015" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 016" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/checkboxBit17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 017" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 018" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 019" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 020" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 021" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 022" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 023" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 024" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 025" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 026" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 027" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 028" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 029" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 030" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 031" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 032" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/checkboxBit33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 033" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 034" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 035" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 036" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 037" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 038" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 039" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 040" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 041" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 042" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 043" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 044" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 045" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 046" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit47"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 047" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit48"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 048" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/checkboxBit49"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 049" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 050" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit51"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 051" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit52"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 052" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit53"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 053" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit54"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 054" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit55"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 055" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit56"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 056" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit57"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 057" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit58"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 058" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit59"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 059" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit60"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 060" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit61"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 061" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit62"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 062" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit63"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 063" />
+
+                <CheckBox
+                    android:id="@+id/checkboxBit64"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bit 064" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
